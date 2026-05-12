@@ -1,8 +1,22 @@
-# Everything
-/*
-/*/
+# Temp / lock files
+~$*.docx
+~$*.pptx
+*.tmp
+*.lock
 
-# Keep only these
-!/.gitignore
-!/consume_dividend_strategy.ipynb
-!/report.md
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Claude local config (contains personal settings)
+.claude/settings.local.json
+
+# Generated deliverables (regenerate from notebook)
+消费红利策略研究报告.docx
+消费红利策略研究报告.pdf
