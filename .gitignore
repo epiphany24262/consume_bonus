@@ -1,11 +1,8 @@
-# Temp files
-~$*.docx
-*.tmp
+# Everything
+/*
+/*/
 
-# IDE
-.vscode/
-.idea/
-
-# Python
-__pycache__/
-*.pyc
+# Keep only these
+!/.gitignore
+!/consume_dividend_strategy.ipynb
+!/report.md
