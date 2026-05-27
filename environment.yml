@@ -1,0 +1,17 @@
+name: consume_dividend
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - pandas>=2.0
+  - numpy>=1.24
+  - matplotlib>=3.7
+  - scipy>=1.10
+  - statsmodels>=0.14
+  - seaborn>=0.12
+  - jupyter
+  - nbconvert
+  - python-docx>=0.8
+  - openpyxl
+  - ipython
